@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		F265F5DC24F24FDA00914F94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265F5DB24F24FDA00914F94 /* AppDelegate.swift */; };
 		F265F5DE24F24FDA00914F94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265F5DD24F24FDA00914F94 /* SceneDelegate.swift */; };
-		F265F5E024F24FDA00914F94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265F5DF24F24FDA00914F94 /* ViewController.swift */; };
-		F265F5E324F24FDA00914F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F265F5E124F24FDA00914F94 /* Main.storyboard */; };
 		F265F5E524F24FE000914F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F265F5E424F24FE000914F94 /* Assets.xcassets */; };
 		F265F5E824F24FE000914F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F265F5E624F24FE000914F94 /* LaunchScreen.storyboard */; };
+		F265F5F224F2507200914F94 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265F5F124F2507200914F94 /* LoginViewController.swift */; };
+		F265F5F424F2508700914F94 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265F5F324F2508700914F94 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F265F5D824F24FDA00914F94 /* AutoLayoutInCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutInCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F265F5DB24F24FDA00914F94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F265F5DD24F24FDA00914F94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F265F5DF24F24FDA00914F94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F265F5E224F24FDA00914F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F265F5E424F24FE000914F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F265F5E724F24FE000914F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F265F5E924F24FE000914F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F265F5F124F2507200914F94 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F265F5F324F2508700914F94 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				F265F5DB24F24FDA00914F94 /* AppDelegate.swift */,
 				F265F5DD24F24FDA00914F94 /* SceneDelegate.swift */,
-				F265F5DF24F24FDA00914F94 /* ViewController.swift */,
-				F265F5E124F24FDA00914F94 /* Main.storyboard */,
+				F265F5F124F2507200914F94 /* LoginViewController.swift */,
+				F265F5F324F2508700914F94 /* LoginView.swift */,
 				F265F5E424F24FE000914F94 /* Assets.xcassets */,
 				F265F5E624F24FE000914F94 /* LaunchScreen.storyboard */,
 				F265F5E924F24FE000914F94 /* Info.plist */,
@@ -127,7 +127,6 @@
 			files = (
 				F265F5E824F24FE000914F94 /* LaunchScreen.storyboard in Resources */,
 				F265F5E524F24FE000914F94 /* Assets.xcassets in Resources */,
-				F265F5E324F24FDA00914F94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F265F5E024F24FDA00914F94 /* ViewController.swift in Sources */,
+				F265F5F224F2507200914F94 /* LoginViewController.swift in Sources */,
 				F265F5DC24F24FDA00914F94 /* AppDelegate.swift in Sources */,
+				F265F5F424F2508700914F94 /* LoginView.swift in Sources */,
 				F265F5DE24F24FDA00914F94 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F265F5E124F24FDA00914F94 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F265F5E224F24FDA00914F94 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F265F5E624F24FE000914F94 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6PD97MRX4;
 				INFOPLIST_FILE = AutoLayoutInCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +298,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6PD97MRX4;
 				INFOPLIST_FILE = AutoLayoutInCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
